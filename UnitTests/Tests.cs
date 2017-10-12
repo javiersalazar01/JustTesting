@@ -17,7 +17,9 @@ namespace Calculator.Library.Test
         [TestCleanup]
         public void CleanUp()
         {
+
             Console.WriteLine("After Test Method");
+
         }
         
         [TestMethod]
